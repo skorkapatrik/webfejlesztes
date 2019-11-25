@@ -7,27 +7,27 @@
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('http://213.181.208.127/webfejlesztes/fonts/poppins/Poppins-Regular.ttf');
+  src: url('../fonts/poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('http://213.181.208.127/webfejlesztes/fonts/poppins/Poppins-Medium.ttf');
+  src: url('../fonts/poppins/Poppins-Medium.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('http://213.181.208.127/webfejlesztes/fonts/poppins/Poppins-Bold.ttf');
+  src: url('../fonts/poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
   font-family: Poppins-SemiBold;
-  src: url('http://213.181.208.127/webfejlesztes/fonts/poppins/Poppins-SemiBold.ttf');
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url('http://213.181.208.127/webfejlesztes/fonts/montserrat/Montserrat-Bold.ttf');
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf');
 }
 
 
@@ -35,61 +35,61 @@
 [ RESTYLE TAG ]*/
 
 * {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body, html {
-	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
+  height: 100%;
+  font-family: Poppins-Regular, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
-	transition: all 0.4s;
-	-webkit-transition: all 0.4s;
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
 
 a:focus {
-	outline: none !important;
+  outline: none !important;
 }
 
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
   color: #333333;
 }
 
 /*---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
-	margin: 0px;
+  margin: 0px;
 }
 
 p {
-	font-family: Poppins-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
 }
 
 ul, li {
-	margin: 0px;
-	list-style-type: none;
+  margin: 0px;
+  list-style-type: none;
 }
 
 
 /*---------------------------------------------*/
 input {
-	outline: none;
-	border: none;
+  outline: none;
+  border: none;
 }
 
 textarea {
@@ -113,17 +113,17 @@ textarea:-ms-input-placeholder { color: #999999;}
 
 /*---------------------------------------------*/
 button {
-	outline: none !important;
-	border: none;
-	background: transparent;
+  outline: none !important;
+  border: none;
+  background: transparent;
 }
 
 button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 iframe {
-	border: none !important;
+  border: none !important;
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -174,7 +174,7 @@ iframe {
 }
 
 .container-login100 {
-  width: 100%;  
+  width: 100%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
