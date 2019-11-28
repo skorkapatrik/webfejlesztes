@@ -1,5 +1,5 @@
 <?php
-define("PASS_URL", "http://shrek.unideb.hu/~herakles/ZH/password.txt");
+define("PASS_URL", "http://213.181.208.127/webfejlesztes/password.txt");
 define("HOSTNAME", 'localhost');
 define("USERNAME", 'root');
 define("PASSWORD", '');
